@@ -1,0 +1,1 @@
+import{ch as n,ci as l}from"./index-deb90793.js";var g="Expected a function";function d(t,a,i){var r=!0,e=!0;if(typeof t!="function")throw new TypeError(g);return l(i)&&(r="leading"in i?!!i.leading:r,e="trailing"in i?!!i.trailing:e),n(t,a,{leading:r,maxWait:a,trailing:e})}export{d as t};
