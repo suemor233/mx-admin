@@ -1,0 +1,1 @@
+import{x as a,m as f,K as u}from"./index-578dead8.js";const p=r=>{const s=a([]),e=a({}),c=f({sortBy:"",sortOrder:0}),n=a([]),t=a(!1);return{data:s,pager:e,sortProps:c,checkedRowKeys:n,loading:t,fetchDataFn:async(i,l,o)=>{t.value=!0,await r(s,e)(i,l,o?u.stringify(o):void 0),t.value=!1}}};export{p as u};
